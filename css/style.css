@@ -1,0 +1,90 @@
+/* My first css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#5B7594;
+    color: black;
+    
+
+}
+
+.imgsimba{
+    border:5px solid #F7F3F0;
+}
+
+h1{
+    border:3px dotted red; width: 200px;
+    
+}
+
+
+
+
+
+blockquote{
+
+    font-family: Georgia, 'Times New Roman', Times, serif; /* fontes com mais de um nome levam apostrofe*/
+    font-size:2rem; /* rem, é a medida da fonte, geralmente 16px multiplicado pelo número de rem's, especialmente útil pela compatibilidade de dispositivos (telemoveis, tablets, etc.)*/
+    font-style: italic;
+    text-align: center;
+    
+}
+
+cite {
+    font-size: 1.5rem;
+}
+
+.bigbold{ /*isto é uma classe(class em inglês), permite alterar apenas uma tag no html, exemplo: <p class="'nome da classe´">frase<p>*/
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+a{
+
+    padding-left:1rem;
+    
+    
+}
+a:link{
+
+color: black;
+text-decoration: underline;
+
+}
+a:visited{
+    color: black;
+    text-decoration: underline;
+}
+a:hover{
+    
+    color:white;
+    font-weight: bold;
+    
+}
+
+
+.imgfacebook{
+
+ 
+   margin-bottom: -1.4rem;
+   margin-left:0.35rem;
+}
+
+.imgfacebook2{
+
+    margin-left: 1rem;
+
+}
+
+
+
+
+/*
+
+ul{
+  
+  list-style-type:none;
+}
+
+Tirar os pontos de um unordered list*/
